@@ -1,0 +1,124 @@
+{
+  "id": "b0047772-d2eb-4d70-b7d1-2ed8413bfde8",
+  "version": "2.0",
+  "name": "PythonAutomation",
+  "url": "http://demo.openemr.io",
+  "tests": [{
+    "id": "a4459566-3071-4e33-b308-e8ac769063d5",
+    "name": "Login_success",
+    "commands": [{
+      "id": "b3883f35-ca91-4431-942b-77cf861155ec",
+      "comment": "",
+      "command": "open",
+      "target": "/b/openemr/interface/login/login.php?site=default",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79e0e330-69cc-41e6-8619-1a55ec6a4dc9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5a9cc8f-6779-4708-ae8f-d8fc05e9f358",
+      "comment": "",
+      "command": "type",
+      "target": "id=authUser",
+      "targets": [
+        ["id=authUser", "id"],
+        ["name=authUser", "name"],
+        ["css=#authUser", "css:finder"],
+        ["xpath=//input[@id='authUser']", "xpath:attributes"],
+        ["xpath=//div[@id='standard-auth-username']/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "c0c62c8d-7e99-4ca6-9a07-023f7496920c",
+      "comment": "",
+      "command": "click",
+      "target": "id=clearPass",
+      "targets": [
+        ["id=clearPass", "id"],
+        ["name=clearPass", "name"],
+        ["css=#clearPass", "css:finder"],
+        ["xpath=//input[@id='clearPass']", "xpath:attributes"],
+        ["xpath=//div[@id='standard-auth-password']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "232a7ac9-e5fc-4d15-8640-1e7787c63df4",
+      "comment": "",
+      "command": "type",
+      "target": "id=clearPass",
+      "targets": [
+        ["id=clearPass", "id"],
+        ["name=clearPass", "name"],
+        ["css=#clearPass", "css:finder"],
+        ["xpath=//input[@id='clearPass']", "xpath:attributes"],
+        ["xpath=//div[@id='standard-auth-password']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "pass"
+    }, {
+      "id": "933db321-7245-47ab-9e10-b0b79371a13e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-control:nth-child(1)",
+      "targets": [
+        ["css=.form-control:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='languageChoice']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div/div/div[3]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab013b75-4668-4616-be84-4f0309a3a861",
+      "comment": "",
+      "command": "select",
+      "target": "css=.form-control:nth-child(1)",
+      "targets": [],
+      "value": "label=English (Indian)"
+    }, {
+      "id": "d6b20be5-34c7-4faf-a1b0-6ba0f7938b1e",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-button",
+      "targets": [
+        ["id=login-button", "id"],
+        ["css=#login-button", "css:finder"],
+        ["xpath=//button[@id='login-button']", "xpath:attributes"],
+        ["xpath=//form[@id='login_form']/div/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29289c07-d607-4f35-bb28-29b783776fe3",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "OpenEMR",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "775cd59a-68aa-4656-b81e-442efebbad63",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "OpenEMR",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b8f9a66b-3dac-467e-ac0f-ca8184cb15de",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a4459566-3071-4e33-b308-e8ac769063d5"]
+  }],
+  "urls": ["http://demo.openemr.io/"],
+  "plugins": []
+}

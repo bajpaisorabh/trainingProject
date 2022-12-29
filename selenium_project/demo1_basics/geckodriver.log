@@ -1,0 +1,22 @@
+1671087120055	geckodriver	INFO	Listening on 127.0.0.1:50213
+1671087392393	geckodriver	INFO	Listening on 127.0.0.1:50416
+1671087395413	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50417" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\dev_user\\AppData\\Local\\Temp\\rust_mozprofileTSvB64"
+1671087396261	Marionette	INFO	Marionette enabled
+1671087396266	Marionette	INFO	Listening on port 50427
+Read port: 50427
+WebDriver BiDi listening on ws://127.0.0.1:50417
+1671087396633	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dev_user\\AppData\\Local\\Temp\\rust_mozprofileTSvB64\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50417/devtools/browser/ff1f9508-769b-4a3e-b921-47890188e245
+1671087452152	Marionette	INFO	Stopped listening on port 50427
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_untrustedmodules_ping
+[Parent 1400, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:559
+e file at C:\\Users\\dev_user\\AppData\\Local\\Temp\\rust_mozprofileLDwquM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50475/devtools/browser/f3de5d61-bcda-4152-827c-cf3d34ca91f6
+1671087678106	Marionette	INFO	Stopped listening on port 50484
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+[Parent 2092, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:559

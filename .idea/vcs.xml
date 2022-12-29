@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/autmation_framework_bdd" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/automation_framework" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/python_project" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/python_selenium_concepts_tata_tech" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/windows_automation" vcs="Git" />
+  </component>
+</project>
